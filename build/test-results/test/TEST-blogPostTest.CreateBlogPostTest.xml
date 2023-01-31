@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="blogPostTest.CreateBlogPostTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-27T11:33:24" hostname="TestVagrants-MacBook-Pro.local" time="2.621">
+  <properties/>
+  <testcase name="shouldCreateBlogPost" classname="blogPostTest.CreateBlogPostTest" time="2.621"/>
+  <system-out><![CDATA[HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 359
+Access-Control-Allow-Origin: *
+Cache-Control: private
+Content-Type: application/json; charset=utf-8
+Etag: W/"167-xMat/mL7BdyUfup1CjRvT/ykNwo"
+Function-Execution-Id: n6lpu00sgmzv
+Server: Google Frontend
+Strict-Transport-Security: max-age=31556926
+X-Cloud-Trace-Context: 50e95dd4e49803dba77984b5429b8f2b
+X-Country-Code: IN
+Accept-Ranges: bytes
+Date: Fri, 27 Jan 2023 11:33:27 GMT
+X-Served-By: cache-maa10236-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1674819207.809056,VS0,VE379
+Vary: cookie,need-authorization, x-fh-requested-host, accept-encoding
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+{
+    "id": "63d3b687b3d1983560b62467",
+    "image": "https: //t4.ftcdn.net/jpg/03/03/62/45/240_F_303624505_u0bFT1Rnoj8CMUSs8wMCwoKlnWlh5Jiq.jpg",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "#new"
+    ],
+    "text": "this is new post",
+    "publishDate": "2023-01-27T11:33:27.062Z",
+    "updatedDate": "2023-01-27T11:33:27.062Z",
+    "owner": {
+        "id": "63be48b5d1eb2dba0c55e2b2",
+        "firstName": "Rupjit",
+        "lastName": "bose"
+    }
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

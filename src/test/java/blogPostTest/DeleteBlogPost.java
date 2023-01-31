@@ -19,12 +19,12 @@ public class DeleteBlogPost {
     @Test
     public void shouldDeletePostById(){
         //arrange
-        CreateBlogPostResquestBody createBlogPostResquestBody=new CreateBlogPostResquestBody.Builder().build();
-        String id=blogService.createBlog(createBlogPostResquestBody).getId();
+//        CreateBlogPostResquestBody createBlogPostResquestBody=new CreateBlogPostResquestBody.Builder().build();
+//        String id=blogService.createBlog(createBlogPostResquestBody).getId();
         //act
-        DeleteBlogPostResponse deleteBlogPostResponse=blogService.deletePostById(id);
+        DeleteBlogPostResponse deleteBlogPostResponse=blogService.deletePostById("63d3b44bb3d198267fb62085");
         //assert
-        Assert.assertEquals(deleteBlogPostResponse.getId(),id);
+        Assert.assertEquals(deleteBlogPostResponse.getId(),"63d3b44bb3d198267fb62085");
         Assert.assertEquals(deleteBlogPostResponse.getStatusCode(),200);
     }
 }

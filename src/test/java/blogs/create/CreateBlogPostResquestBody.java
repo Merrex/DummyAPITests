@@ -21,7 +21,7 @@ public class CreateBlogPostResquestBody {
     private List<String> tags;
 
 
-    public CreateBlogPostResquestBody(CreateBlogPostResquestBody.Builder builder) {
+    public CreateBlogPostResquestBody(Builder builder) {
         this.owner=builder.owner;
         this.image=builder.image;
         this.text=builder.text;
@@ -45,11 +45,11 @@ public class CreateBlogPostResquestBody {
             this.tags= tag;
         }
 
-        public CreateBlogPostResquestBody.Builder tags(List<String> tagList){
+        public Builder tags(List<String> tagList){
             this.tags=tagList;
             return this;
         }
-        public CreateBlogPostResquestBody.Builder image(String url){
+        public Builder image(String url){
             this.image=url;
             return this;
         }
